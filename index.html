@@ -332,7 +332,7 @@
 
             function saveGame() { localStorage.setItem('pikranji_save_v5', JSON.stringify(saveData)); refreshUI(); }
 
-            function loadNextPuzzle(force = false) {
+	    function loadNextPuzzle(force = false) {
                 if (force || puzzleBag.length === 0) {
                     let limit = Math.min(saveData.unlockedLimit, puzzles.length);
                     puzzleBag = puzzles.slice(0, limit).map(p => p.id).sort(() => Math.random() - 0.5);
@@ -340,13 +340,19 @@
                 currentPuzzleID = puzzleBag.pop();
                 const p = puzzles.find(x => x.id === currentPuzzleID);
                 currentGrid = p.grid;
+                
+                // Reinicia a grelha lógica
                 userGrid = Array.from({length: GRID_SIZE}, () => Array(GRID_SIZE).fill(0));
+                
+                createMiniMap(); 
+
                 gameWon = false; cheated = false;
                 applyRandomTheme();
                 renderGrid();
                 hideWinModal();
                 refreshUI();
             }
+
 
             function refreshUI() {
                 const lang = saveData.language;
