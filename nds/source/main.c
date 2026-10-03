@@ -42,6 +42,7 @@ int bagIndex = 0;
 
 SaveData saveData;
 bool fatReady = false;
+bool needShuffle = false;
 
 int currentPuzzleIndex = 0;
 int playerGrid[GRID_ROWS][GRID_COLS];

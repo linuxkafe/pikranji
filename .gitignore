@@ -23,3 +23,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# AES project management (local state only — do not commit)
+.aes/
+aes/

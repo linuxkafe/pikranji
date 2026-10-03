@@ -35,6 +35,7 @@ typedef struct { int count; int values[MAX_CLUES]; } LineClues;
 typedef struct { int id; int complexity; } PuzzleEntry;
 
 typedef struct {
+    int version;          /* Save format version — used for migration */
     int score;
     int unlockedLimit;
     int solvedCount;
@@ -68,6 +69,7 @@ extern bool colDone[];
 extern PuzzleEntry sortedPuzzles[];
 extern int puzzleBag[];
 extern int bagIndex;
+extern bool needShuffle;   /* Set to force re-shuffle on next puzzle_get_next_id() */
 extern SaveData saveData;
 extern bool fatReady;
 extern int currentPuzzleIndex;

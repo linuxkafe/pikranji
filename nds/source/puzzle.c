@@ -80,6 +80,7 @@ void puzzle_update_clue_states(void) {
 void puzzle_shuffle_bag(void) {
     int limit = saveData.unlockedLimit;
     if (limit > PUZZLE_COUNT) limit = PUZZLE_COUNT;
+    if (limit < 1) limit = 1;  /* safety: never empty the bag */
     for (int i = 0; i < limit; i++) puzzleBag[i] = sortedPuzzles[i].id;
     for (int i = limit - 1; i > 0; i--) {
         int j = rand() % (i + 1);
@@ -88,12 +89,14 @@ void puzzle_shuffle_bag(void) {
         puzzleBag[j] = temp;
     }
     bagIndex = 0;
+    needShuffle = false;
 }
 
 int puzzle_get_next_id(void) {
     int limit = saveData.unlockedLimit;
     if (limit > PUZZLE_COUNT) limit = PUZZLE_COUNT;
-    if (bagIndex >= limit) puzzle_shuffle_bag();
+    if (limit < 1) limit = 1;
+    if (needShuffle || bagIndex >= limit) puzzle_shuffle_bag();
     return puzzleBag[bagIndex++];
 }
 
@@ -132,7 +135,7 @@ void puzzle_check_win(void) {
         if (saveData.solvedCount >= (saveData.unlockedLimit - 5)) {
             if (saveData.unlockedLimit < PUZZLE_COUNT) {
                 saveData.unlockedLimit += 10;
-                bagIndex = 9999; /* forçar reembaralhar no próximo get_next_id */
+                needShuffle = true;  /* force re-shuffle on next puzzle_get_next_id() */
             }
         }
         save_save_game();
