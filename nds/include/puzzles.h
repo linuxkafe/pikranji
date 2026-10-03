@@ -101,8 +101,8 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     },
     {
         "一",
-        "Um",
-        "One",
+        "Um (numero)",
+        "One (number)",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -299,8 +299,8 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     },
     {
         "上",
-        "Cima",
-        "Up",
+        "Cima/Para cima",
+        "Up/Above",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1201,8 +1201,8 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     },
     {
         "行",
-        "Ir",
-        "Go",
+        "Ir/Andar",
+        "Go/Walk",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1817,8 +1817,8 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     },
     {
         "足",
-        "Pe",
-        "Foot",
+        "Pe (parte do corpo)",
+        "Foot/Leg",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2587,8 +2587,8 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     },
     {
         "私",
-        "Eu",
-        "I/Me",
+        "Eu (pronome)",
+        "I/Me (pronoun)",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
