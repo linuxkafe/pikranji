@@ -1,106 +1,187 @@
-# Pikranji - The Kanji Picross
+# Pikranji — Kanji Picross
 
------
+A Kanji Picross (Nonogram) game with three frontends:
 
-## 🎯 Game Objective
+- **Web** (`index.html`) — HTML5/JS, playable in browser
+- **Generator** (`gerar_kanji.py`, `gerador/`) — Creates puzzles from font rendering or manual drawing
+- **NDS Port** (`nds/`) — Nintendo DS homebrew using devkitPro (libnds)
 
-**Pikranji** is a version of the popular logic game Picross (also known as Nonogram or Griddlers), where the objective is to reveal a hidden image on a grid.
+## Game Objective
 
-In this game, the hidden image is always a **Kanji** (Japanese character), and its meaning is displayed just below the grid to provide a hint.
+The hidden image on a 15×15 grid is always a **Kanji** character. Fill in the cells following the numerical clues on the sides and top to reveal the character. Its meaning is displayed as a hint.
 
-To win, you must correctly fill in the cells of the 15x15 grid, following the numerical clues provided on the sides and at the top.
+Solve all rows and columns correctly to win and unlock new puzzles.
 
-This game primarily has an educational objective, which is to learn the thousands of existing Kanji characters in a gamified way. Feel free to add those that are not included using the generator.
+## How to Play
 
------
+| Element | Description |
+|---------|-------------|
+| **Left clues** | Block sizes of filled cells per row |
+| **Top clues** | Block sizes of filled cells per column |
+| **Fill tool** | Marks cells black |
+| **Mark tool (X)** | Marks cells as empty |
+| **Restart** | Clears the grid, keeps the same puzzle |
+| **Solve** | Reveals the solution (marks as cheated, no score) |
+| **Next** | Loads a random unlocked puzzle |
 
-## 🔍 How to Play
+**Touch/mouse:** Click to toggle · Drag to paint · Long-press as backup tap.
 
-The board is composed of a central grid and two clue areas:
+### Control Buttons (NDS)
 
-* **Side Clues (Left):** Indicate the number and size of the blocks of filled (black) cells in each **row**.
-* **Top Clues (Top):** Indicate the number and size of the blocks of filled (black) cells in each **column**.
+| Button | Action |
+|--------|--------|
+| `?` | Hint — reveals a random unsolved line/col (−1 point) |
+| `!` | Solve — fills the entire grid, marks as cheated |
 
-**Example:**
-If a row clue is `[3 5 1]`, this means that row contains:
+---
 
-1.  A block of 3 filled cells.
-2.  At least one empty/marked cell.
-3.  A block of 5 filled cells.
-4.  At least one empty/marked cell.
-5.  A block of 1 filled cell.
+## Build & Development
 
-### 🛠️ Interaction Modes (Tools)
+### Web
 
-You can switch between two tools using the **`⬛` (Fill)** and **`❌` (Mark)** buttons:
+Open `index.html` directly in a browser. No build step required.
 
-| Tool | Icon | Main Use |
-| :--- | :--- | :--- |
-| **Fill** | `⬛` | Marks a cell as filled (black color). |
-| **Mark** | `❌` | Marks a cell with an **`×`** (to indicate it should remain empty). |
+### NDS (requires Docker + devkitPro)
 
-### 🖱️ Mouse Interaction
+```bash
+cd nds && ./build.sh        # build and produce pikranji.nds
+cd nds && ./build.sh clean  # clean build artifacts
+```
 
-* **Quick Click:** Toggles the cell's state according to the selected tool.
-* **Drag:** Holds the mouse button down and drags. The first cell clicked defines the action for all subsequent cells.
+### Regenerate puzzles.h
 
-### 📱 Touch Interaction (Mobile)
+After editing `puzzles.json`:
 
-* **Quick Tap (Tap):** Activates toggle mode on the cell, according to the selected tool.
-* **Drag (Drag/Swipe):** The immediate movement after the tap activates drag mode to fill/mark multiple cells.
-* **Long Press (\~0.5s):** Works like a quick tap (toggle), useful for ensuring a slower tap is registered.
+```bash
+cd nds && python3 converter.py
+```
 
-### Control Buttons
+### Generate new puzzles from font
 
-* **Restart:** Clears the current grid and returns to the initial state, keeping the same Kanji.
-* **Solve:** Reveals the correct solution (can be used as a last resort!).
-* **Next Kanji:** Loads a new puzzle and a new random Kanji.
+```bash
+python3 gerar_kanji.py    # outputs novos_puzzles.json
+```
 
------
+---
 
-## ✅ Completed Clues
+## Adding New Puzzles
 
-When the filled cells in a row or column exactly match the clue numbers for that row/column, the numerical clues will be crossed out, indicating that the row/column is **completed**.
+Edit **`puzzles.json`** directly or use the included generator tools.
 
-**The game ends and you win** when all rows and columns are completed and the Kanji image is fully revealed.
-
------
-
-## 🚀 Adding New Puzzles (Kanji)
-
-You can easily add new challenges to the game by directly editing the **`puzzles.json`** file. A great, free, and open-source text editor for this task is **Vim**. This file is an *Array* of JSON objects, where each object represents a complete puzzle. (you can also use the included generator)
-
-### Puzzle Structure
-
-Each puzzle object must follow the format below and be appended to the main array:
+Each puzzle object:
 
 | Field | Type | Description |
-| :--- | :--- | :--- |
-| `"kanji"` | String | The Japanese character that will be displayed. |
-| `"meaning"` | String | The meaning of the Kanji. |
-| `"grid"` | Array (15x15) | The solution grid. Must be a 15 by 15 matrix, where **`1`** represents a filled cell (black) and **`0`** represents an empty cell. |
+|-------|------|-------------|
+| `"kanji"` | String | The Japanese character |
+| `"meaning"` | String | Meaning in Portuguese |
+| `"meaning_en"` | String | Meaning in English (falls back to `meaning` if missing) |
+| `"grid"` | Array 15×15 | `0` = empty, `1` = filled |
 
-### JSON Code Example
+Example:
 
 ```json
 {
-                "kanji": "田",
-                "meaning": "Rice Field",
-                "grid": [
-                        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                      	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        	        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          	        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
-          	        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
-          	        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          	        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          	        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-  	          ]
+    "kanji": "田",
+    "meaning": "Rice Field",
+    "meaning_en": "Rice Field",
+    "grid": [
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,0,0,0,0,1,0,0,0,0,1,0,0],
+        [0,0,1,1,1,1,1,1,1,1,1,1,1,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    ]
 }
+```
+
+---
+
+## Web Generator
+
+Open `gerador/index.html` in a browser to draw puzzles visually:
+
+1. Enter the kanji character and its meaning (PT + EN).
+2. Draw on the 15×15 grid by clicking/dragging.
+3. Click **Add to Collection**.
+4. When done, click **Download JSON** and merge into `puzzles.json`.
+
+---
+
+## NDS Port Architecture
+
+The NDS source is split into logical modules:
+
+| Module | Responsibility |
+|--------|----------------|
+| `main.c` | Entry point, game loop, state machine |
+| `puzzle.c/h` | Clue calculation, win detection, bag/shuffle |
+| `render.c/h` | All drawing: grid, clues, UI, particles, backgrounds |
+| `input.c/h` | Touch/key handling, drag state machine |
+| `audio.c/h` | Background music loop, SFX (PSG + noise channels) |
+| `save.c/h` | FAT init, save/load, progressive unlock, language toggle |
+| `common.h` | Shared constants, types, extern declarations |
+
+### NDS Constraints
+
+- No dynamic allocation — all arrays are static.
+- VRAM: Bank A = text console, Bank B = top screen bitmap, Bank C = bottom screen bitmap.
+- `puzzles.h` is **generated** from `puzzles.json` — never edit it manually.
+
+---
+
+## Scoring
+
+| Event | Points |
+|-------|--------|
+| Base win | +50 |
+| Per filled pixel | +2 |
+| Each hint used | −1 |
+| Solving (cheat) | No points, flag set |
+
+**Progressive unlock:** Every 5 puzzles solved, 10 more are unlocked (capped at total count).
+
+---
+
+## Language Support
+
+Toggle between Portuguese and English by pressing **X** on NDS (or the language button on Web). Some puzzle meanings may fall back to Portuguese if English is not provided.
+
+---
+
+## Repository Structure
+
+```
+pikranji/
+├── index.html           # Web game (single-file, Tailwind CDN)
+├── puzzles.json         # Source of truth for all puzzles
+├── gerar_kanji.py       # Python font-based puzzle generator
+├── gerador/             # Web puzzle editor
+│   ├── index.html
+│   └── README.md
+├── nds/                 # NDS homebrew
+│   ├── Makefile
+│   ├── build.sh         # Docker-based build
+│   ├── converter.py     # puzzles.json → puzzles.h
+│   ├── source/          # Modular C source
+│   ├── include/puzzles.h  # Generated — do NOT edit
+│   └── assets/gfx/      # Background images (sea1-3.bmp)
+├── aes/                 # Project management (kanban, tickets, sprints)
+├── docs/                # Documentation (VISION, REQUIREMENTS, etc.)
+└── CLAUDE.md            # Operational contract for AI agents
+```
+
+---
+
+## License
+
+MIT — see `LICENSE` file.

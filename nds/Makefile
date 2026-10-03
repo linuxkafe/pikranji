@@ -89,7 +89,15 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
 
 export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 
-.PHONY: $(BUILD) clean
+.PHONY: $(BUILD) clean check
+
+#---------------------------------------------------------------------------------
+check:
+	@echo "Running static analysis..."
+	@echo "Checking for common issues..."
+	@! grep -r "malloc\|free" source/ --include="*.c" --include="*.h" && echo "✓ No dynamic allocation"
+	@! grep -r "TODO\|FIXME" source/ --include="*.c" --include="*.h" && echo "✓ No TODO/FIXME in source"
+	@echo "✓ Check passed"
 
 #---------------------------------------------------------------------------------
 $(BUILD):

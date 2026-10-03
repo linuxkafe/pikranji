@@ -608,7 +608,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "百",
         "Cem",
-        "",
+        "Hundred",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -784,7 +784,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "金",
         "Ouro/Dinheiro",
-        "",
+        "Gold/Money",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -806,7 +806,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "曜",
         "Dia da semana",
-        "",
+        "Weekday",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -828,7 +828,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "年",
         "Ano",
-        "",
+        "Year",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -894,7 +894,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "外",
         "Fora",
-        "",
+        "Outside",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -916,7 +916,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "前",
         "Frente",
-        "",
+        "Front",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -938,7 +938,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "後",
         "Tras",
-        "",
+        "Behind",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -960,7 +960,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "右",
         "Direita",
-        "",
+        "Right",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -982,7 +982,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "左",
         "Esquerda",
-        "",
+        "Left",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1004,7 +1004,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "大",
         "Grande",
-        "",
+        "Big",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1048,7 +1048,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "長",
         "Longo",
-        "",
+        "Long",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1070,7 +1070,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "短",
         "Curto",
-        "",
+        "Short",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1114,7 +1114,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "安",
         "Barato/Seguro",
-        "",
+        "Cheap/Safe",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1136,7 +1136,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "新",
         "Novo",
-        "",
+        "New",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1158,7 +1158,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "多",
         "Muitos",
-        "",
+        "Many",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1202,7 +1202,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "行",
         "Ir",
-        "",
+        "Go",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1224,7 +1224,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "来",
         "Vir",
-        "",
+        "Come",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1246,7 +1246,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "帰",
         "Voltar",
-        "",
+        "Return",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1268,7 +1268,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "食",
         "Comer",
-        "",
+        "Eat",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1334,7 +1334,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "聞",
         "Ouvir",
-        "",
+        "Hear",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1378,7 +1378,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "書",
         "Escrever",
-        "",
+        "Write",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1400,7 +1400,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "話",
         "Falar",
-        "",
+        "Speak",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1444,7 +1444,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "教",
         "Ensinar",
-        "",
+        "Teach",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1466,7 +1466,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "会",
         "Encontrar",
-        "",
+        "Meet",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1488,7 +1488,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "休",
         "Descansar",
-        "",
+        "Rest",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1510,7 +1510,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "立",
         "Levantar",
-        "",
+        "Stand",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1532,7 +1532,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "座",
         "Sentar",
-        "",
+        "Sit",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1554,7 +1554,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "入",
         "Entrar",
-        "",
+        "Enter",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1576,7 +1576,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "出",
         "Sair",
-        "",
+        "Exit",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1598,7 +1598,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "待",
         "Esperar",
-        "",
+        "Wait",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1620,7 +1620,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "住",
         "Morar",
-        "",
+        "Live",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1642,7 +1642,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "自",
         "Eu mesmo",
-        "",
+        "Self",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1686,7 +1686,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "男",
         "Homem",
-        "",
+        "Man",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1708,7 +1708,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "女",
         "Mulher",
-        "",
+        "Woman",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1730,7 +1730,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "友",
         "Amigo",
-        "",
+        "Friend",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1752,7 +1752,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "名",
         "Nome",
-        "",
+        "Name",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1774,7 +1774,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "耳",
         "Orelha",
-        "",
+        "Ear",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1796,7 +1796,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "手",
         "Mao",
-        "",
+        "Hand",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1818,7 +1818,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "足",
         "Pe",
-        "",
+        "Foot",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1840,7 +1840,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "天",
         "Ceu",
-        "",
+        "Sky",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1862,7 +1862,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "気",
         "Espirito",
-        "",
+        "Spirit",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1884,7 +1884,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "雪",
         "Neve",
-        "",
+        "Snow",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1906,7 +1906,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "電",
         "Eletricidade",
-        "",
+        "Electricity",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1928,7 +1928,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "駅",
         "Estacao",
-        "",
+        "Station",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1950,7 +1950,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "道",
         "Estrada",
-        "",
+        "Road",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1972,7 +1972,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "国",
         "Pais",
-        "",
+        "Country",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1994,7 +1994,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "社",
         "Empresa",
-        "",
+        "Company",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2016,7 +2016,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "校",
         "Escola",
-        "",
+        "School",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2038,7 +2038,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "本",
         "Livro",
-        "",
+        "Book",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2060,7 +2060,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "花",
         "Flor",
-        "",
+        "Flower",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2082,7 +2082,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "魚",
         "Peixe",
-        "",
+        "Fish",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2104,7 +2104,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "空",
         "Ceu",
-        "",
+        "Sky",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2148,7 +2148,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "黒",
         "Preto",
-        "",
+        "Black",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2170,7 +2170,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "赤",
         "Vermelho",
-        "",
+        "Red",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2192,7 +2192,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "青",
         "Azul",
-        "",
+        "Blue",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2214,7 +2214,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "午",
         "Meio-dia",
-        "",
+        "Noon",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2236,7 +2236,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "今",
         "Agora",
-        "",
+        "Now",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2258,7 +2258,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "週",
         "Semana",
-        "",
+        "Week",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2280,7 +2280,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "時",
         "Hora",
-        "",
+        "Time",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2302,7 +2302,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "間",
         "Intervalo",
-        "",
+        "Interval",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2346,7 +2346,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "半",
         "Metade",
-        "",
+        "Half",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2368,7 +2368,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "毎",
         "Todo",
-        "",
+        "Every",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2390,7 +2390,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "何",
         "O que",
-        "",
+        "What",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2412,7 +2412,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "家",
         "Casa",
-        "",
+        "House",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2434,7 +2434,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "矢",
         "Flecha",
-        "",
+        "Arrow",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2456,7 +2456,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "族",
         "Familia",
-        "",
+        "Family",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2478,7 +2478,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "親",
         "Pais",
-        "",
+        "Parents",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2500,7 +2500,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "兄",
         "Irmao +Velho",
-        "",
+        "Older Brother",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2522,7 +2522,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "姉",
         "Irma +Velha",
-        "",
+        "Older Sister",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2544,7 +2544,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "弟",
         "Irmao +Novo",
-        "",
+        "Younger Brother",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2566,7 +2566,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "妹",
         "Irma +Nova",
-        "",
+        "Younger Sister",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2588,7 +2588,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "私",
         "Eu",
-        "",
+        "I/Me",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2610,7 +2610,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "夫",
         "Marido",
-        "",
+        "Husband",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2632,7 +2632,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "妻",
         "Esposa",
-        "",
+        "Wife",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2654,7 +2654,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "主",
         "Principal",
-        "",
+        "Main",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2676,7 +2676,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "糸",
         "Fio",
-        "",
+        "Thread",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2698,7 +2698,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "紙",
         "Papel",
-        "",
+        "Paper",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2720,7 +2720,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "歌",
         "Cancao",
-        "",
+        "Song",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2742,7 +2742,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "写",
         "Copiar",
-        "",
+        "Copy",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2764,7 +2764,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "真",
         "Verdade",
-        "",
+        "Truth",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2786,7 +2786,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "工",
         "Construcao",
-        "",
+        "Construction",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2808,7 +2808,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "広",
         "Largo",
-        "",
+        "Wide",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2830,7 +2830,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "店",
         "Loja",
-        "",
+        "Shop",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2852,7 +2852,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "病",
         "Doenca",
-        "",
+        "Illness",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2874,7 +2874,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "院",
         "Instituicao",
-        "",
+        "Institution",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2896,7 +2896,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "医",
         "Medico",
-        "",
+        "Doctor",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2918,7 +2918,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "者",
         "Pessoa (Prof)",
-        "",
+        "Person (Prof)",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2940,7 +2940,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "死",
         "Morte",
-        "",
+        "Death",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2962,7 +2962,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "去",
         "Passado",
-        "",
+        "Past",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -2984,7 +2984,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "味",
         "Sabor",
-        "",
+        "Taste",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3006,7 +3006,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "注",
         "Nota",
-        "",
+        "Note",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3028,7 +3028,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "夏",
         "Verao",
-        "",
+        "Summer",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3050,7 +3050,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "秋",
         "Outono",
-        "",
+        "Autumn",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3072,7 +3072,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "冬",
         "Inverno",
-        "",
+        "Winter",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3094,7 +3094,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "春",
         "Primavera",
-        "",
+        "Spring",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3116,7 +3116,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "京",
         "Capital",
-        "",
+        "Capital",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3138,7 +3138,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "都",
         "Metropole",
-        "",
+        "Metropolis",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3160,7 +3160,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "堂",
         "Salao",
-        "",
+        "Hall",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3182,7 +3182,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "建",
         "Construir",
-        "",
+        "Build",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3204,7 +3204,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "物",
         "Coisa",
-        "",
+        "Thing",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3226,7 +3226,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "館",
         "Edificio",
-        "",
+        "Building",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3248,7 +3248,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "室",
         "Quarto",
-        "",
+        "Room",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3270,7 +3270,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "屋",
         "Telhado",
-        "",
+        "Roof",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3292,7 +3292,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "図",
         "Mapa",
-        "",
+        "Map",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3314,7 +3314,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "用",
         "Uso",
-        "",
+        "Use",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3336,7 +3336,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "地",
         "Chao",
-        "",
+        "Ground",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3358,7 +3358,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "理",
         "Logica",
-        "",
+        "Logic",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3380,7 +3380,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "科",
         "Departamento",
-        "",
+        "Department",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3402,7 +3402,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "作",
         "Fazer",
-        "",
+        "Make",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3424,7 +3424,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "泳",
         "Nadar",
-        "",
+        "Swim",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3446,7 +3446,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "海",
         "Mar",
-        "",
+        "Sea",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3468,7 +3468,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "野",
         "Campo",
-        "",
+        "Field",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3490,7 +3490,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "通",
         "Passar",
-        "",
+        "Pass",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3512,7 +3512,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "運",
         "Sorte/Transporte",
-        "",
+        "Luck/Transport",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3534,7 +3534,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "転",
         "Rodar",
-        "",
+        "Rotate",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3556,7 +3556,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "選",
         "Escolher",
-        "",
+        "Choose",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3578,7 +3578,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "洗",
         "Lavar",
-        "",
+        "Wash",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3600,7 +3600,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "止",
         "Parar",
-        "",
+        "Stop",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3622,7 +3622,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "歩",
         "Caminhar",
-        "",
+        "Walk",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3644,7 +3644,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "走",
         "Correr",
-        "",
+        "Run",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3666,7 +3666,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "起",
         "Acordar",
-        "",
+        "Wake",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3688,7 +3688,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "寝",
         "Dormir",
-        "",
+        "Sleep",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3710,7 +3710,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "貸",
         "Emprestar",
-        "",
+        "Lend",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3732,7 +3732,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "借",
         "Pedir Emprestado",
-        "",
+        "Borrow",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3754,7 +3754,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "使",
         "Usar",
-        "",
+        "Use",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3776,7 +3776,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "働",
         "Trabalhar",
-        "",
+        "Work",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3798,7 +3798,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "売",
         "Vender",
-        "",
+        "Sell",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3820,7 +3820,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "知",
         "Saber",
-        "",
+        "Know",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3842,7 +3842,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "思",
         "Pensar",
-        "",
+        "Think",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3864,7 +3864,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "言",
         "Dizer",
-        "",
+        "Say",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3886,7 +3886,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "計",
         "Medir",
-        "",
+        "Measure",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3908,7 +3908,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "試",
         "Tentar",
-        "",
+        "Try",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3930,7 +3930,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "合",
         "Unir",
-        "",
+        "Join",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3952,7 +3952,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "始",
         "Comecar",
-        "",
+        "Begin",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3974,7 +3974,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "終",
         "Terminar",
-        "",
+        "End",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -3996,7 +3996,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "開",
         "Abrir",
-        "",
+        "Open",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4018,7 +4018,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "閉",
         "Fechar",
-        "",
+        "Close",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4040,7 +4040,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "送",
         "Enviar",
-        "",
+        "Send",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4062,7 +4062,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "切",
         "Cortar",
-        "",
+        "Cut",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4084,7 +4084,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "急",
         "Apressar",
-        "",
+        "Hurry",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4106,7 +4106,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "乗",
         "Subir",
-        "",
+        "Ride",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4128,7 +4128,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "降",
         "Descer",
-        "",
+        "Descend",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4150,7 +4150,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "着",
         "Chegar/Vestir",
-        "",
+        "Arrive/Wear",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4172,7 +4172,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "究",
         "Pesquisa",
-        "",
+        "Research",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4194,7 +4194,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "研",
         "Afiar",
-        "",
+        "Study",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4216,7 +4216,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "問",
         "Pergunta",
-        "",
+        "Question",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4238,7 +4238,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "題",
         "Topico",
-        "",
+        "Topic",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4260,7 +4260,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "習",
         "Aprender",
-        "",
+        "Learn",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4282,7 +4282,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "漢",
         "China",
-        "",
+        "China",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4304,7 +4304,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "字",
         "Caractere",
-        "",
+        "Character",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4326,7 +4326,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "文",
         "Frase",
-        "",
+        "Sentence",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4348,7 +4348,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "英",
         "Inglaterra",
-        "",
+        "English",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4370,7 +4370,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "質",
         "Qualidade",
-        "",
+        "Quality",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4392,7 +4392,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "楽",
         "Musica/Diversao",
-        "",
+        "Music/Fun",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4414,7 +4414,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "音",
         "Som",
-        "",
+        "Sound",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4436,7 +4436,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "色",
         "Cor",
-        "",
+        "Color",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4458,7 +4458,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "茶",
         "Cha",
-        "",
+        "Tea",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4480,7 +4480,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "肉",
         "Carne",
-        "",
+        "Meat",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4502,7 +4502,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "料",
         "Ingrediente",
-        "",
+        "Ingredient",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4524,7 +4524,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "飯",
         "Refeicao",
-        "",
+        "Meal",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4546,7 +4546,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "牛",
         "Vaca",
-        "",
+        "Cow",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4568,7 +4568,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "鳥",
         "Passaro",
-        "",
+        "Bird",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4590,7 +4590,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "犬",
         "Cao",
-        "",
+        "Dog",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4612,7 +4612,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "洋",
         "Ocidental",
-        "",
+        "Western",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4634,7 +4634,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "和",
         "Paz/Japones",
-        "",
+        "Peace/Japanese",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4656,7 +4656,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "夜",
         "Noite",
-        "",
+        "Night",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4678,7 +4678,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "朝",
         "Manha",
-        "",
+        "Morning",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4700,7 +4700,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "昼",
         "Tarde",
-        "",
+        "Afternoon",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4722,7 +4722,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "夕",
         "Tarde/Noite",
-        "",
+        "Evening",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4744,7 +4744,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "方",
         "Direcao",
-        "",
+        "Direction",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4766,7 +4766,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "晩",
         "Noite",
-        "",
+        "Night",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4788,7 +4788,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "晴",
         "Ensolarado",
-        "",
+        "Sunny",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4810,7 +4810,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "曇",
         "Nublado",
-        "",
+        "Cloudy",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4832,7 +4832,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "風",
         "Vento",
-        "",
+        "Wind",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4854,7 +4854,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "銀",
         "Prata",
-        "",
+        "Silver",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4876,7 +4876,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "員",
         "Membro",
-        "",
+        "Member",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4898,7 +4898,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "界",
         "Mundo",
-        "",
+        "World",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4920,7 +4920,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "旅",
         "Viagem",
-        "",
+        "Travel",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4942,7 +4942,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "有",
         "Ter",
-        "",
+        "Have",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4964,7 +4964,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "無",
         "Nao ter",
-        "",
+        "Not Have",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -4986,7 +4986,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "薬",
         "Remedio",
-        "",
+        "Medicine",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -5008,7 +5008,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "林",
         "Bosque",
-        "",
+        "Grove",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -5030,7 +5030,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "森",
         "Floresta",
-        "",
+        "Forest",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -5052,7 +5052,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "池",
         "Lagoa",
-        "",
+        "Pond",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -5074,7 +5074,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "仕",
         "Servir",
-        "",
+        "Serve",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -5096,7 +5096,7 @@ static const Puzzle allPuzzles[PUZZLE_COUNT] = {
     {
         "事",
         "Coisa/Acao",
-        "",
+        "Thing/Action",
         {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},

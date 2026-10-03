@@ -1,25 +1,29 @@
 #!/bin/bash
+set -euo pipefail
 
-# Nome da imagem Docker que criámos
-IMAGE_NAME="nds-builder"
+# Build script for Pikranji NDS port
+# Uses devkitPro Docker image for compilation
+# Reference: https://github.com/devkitPro/docker
 
-# Se passares o argumento "clean", ele limpa antes
-if [ "$1" == "clean" ]; then
-    echo "🧹 A limpar builds anteriores..."
-    sudo rm -rf build/*
-    sudo docker run --rm -v $(pwd):/source -w /source $IMAGE_NAME make clean
+IMAGE_NAME="devkitpro/devkitarm"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# If "clean" argument passed, clean build directory first
+if [ "${1:-}" == "clean" ]; then
+    echo "🧹 Cleaning previous builds..."
+    rm -rf "$SCRIPT_DIR/build"
+    docker run --rm -v "$SCRIPT_DIR":/source -w /source "$IMAGE_NAME" make clean
 fi
 
-echo "🚀 A compilar Pikranji..."
-# O comando mágico que funcionou
-sudo docker run --rm -v $(pwd):/source -w /source $IMAGE_NAME make
+echo "🚀 Compiling Pikranji..."
+# Compile using devkitPro Docker image
+docker run --rm -v "$SCRIPT_DIR":/source -w /source "$IMAGE_NAME" make
 
-# Verifica se o ficheiro foi criado
-if [ -f "source.nds" ]; then
-    echo "✅ Sucesso! O ficheiro 'source.nds' está pronto."
-    # Opcional: Renomear para algo mais bonito
-    mv source.nds pikranji.nds
-    echo "👉 Renomeado para 'pikranji.nds'"
+# The Makefile TARGET is derived from the directory name ("pikranji"),
+# so the output is always pikranji.nds — never source.nds.
+if [ -f "$SCRIPT_DIR/pikranji.nds" ]; then
+    echo "✅ Success! 'pikranji.nds' created."
 else
-    echo "❌ Erro na compilação."
+    echo "❌ Compilation failed — pikranji.nds not found."
+    exit 1
 fi

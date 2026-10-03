@@ -1,0 +1,25 @@
+# NDS build artifacts
+nds/build/
+nds/*.elf
+nds/*.nds
+nds/*.ds.gba
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generator output
+novos_puzzles.json
+kanji_collection.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
